@@ -1,27 +1,41 @@
-# Python Quiz
+# Formative Demo – Python Quiz
 
-A demo on how to do the assessments without local Python.
+For the **Intensive Foundations of Computer Science and Programming** course at [Northeastern University London](https://www.nulondon.ac.uk/).
+
+This demo shows how a simple Python program can run in the terminal without installing Python locally.
+
+The program asks the user a maths question and checks the answer.
+
+## User Instructions
+
+1. Run the Python file.
+2. A question will appear in the terminal.
+3. Type your answer and press Enter.
+4. The program will tell you whether your answer is correct.
 
 ## Technical Documentation
 
-My code example is below
+The code example is below.
 
 ```python
 import random
+
+
 def check_answer(user_answer, correct_answer):
     if user_answer == correct_answer:
         print("That is correct!!!")
     else:
-        print("That is Incorrect!!!")
+        print("That is incorrect!!!")
+
 
 print("Welcome to our quiz")
 
-num_1 = random.randint(1,10)
-num_2 = random.randint(1,10)
-correct_answer = num_1*num_2
+num_1 = random.randint(1, 10)
+num_2 = random.randint(1, 10)
 
-terminal_answer = int(input(f"What is {num_1} * {num_2}"))
+correct_answer = num_1 * num_2
+
+terminal_answer = int(input(f"What is {num_1} * {num_2}? "))
 
 check_answer(terminal_answer, correct_answer)
-```
 
