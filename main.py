@@ -1,11 +1,16 @@
-def my_function(user_answer):
-    if user_answer == 4:
+import random
+def check_answer(user_answer, correct_answer):
+    if user_answer == correct_answer:
         print("That is correct!!!")
     else:
-        print("That is INcorrect!!!")
+        print("That is Incorrect!!!")
 
-print("Welcome to out quiz")
+print("Welcome to our quiz")
 
-terminal_answer = int(input("What is 2 plus 2"))
+num_1 = random.randint(1,10)
+num_2 = random.randint(1,10)
+correct_answer = num_1*num_2
 
-my_function(terminal_answer)
+terminal_answer = int(input(f"What is {num_1} * {num_2}"))
+
+check_answer(terminal_answer, correct_answer)
