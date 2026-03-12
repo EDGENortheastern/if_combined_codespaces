@@ -8,10 +8,34 @@ The program asks the user a maths question and checks the answer.
 
 ## User Instructions
 
-1. Run the Python file.
+### Installing Python
+
+- Download Python from [the official website](https://www.python.org/downloads)
+
+- Follow the installation instructions for your operating system.
+
+### Running the program
+
+Navigate to the folder containing the file and run:
+
+```bash
+python main.py
+```
+
+### Playing the quiz
+
 2. A question will appear in the terminal.
 3. Type your answer and press Enter.
 4. The program will tell you whether your answer is correct.
+
+#### Example gameplay:
+
+```text
+Welcome to our quiz
+What is 3 * 7?
+21
+That is correct!!!
+```
 
 ## Technical Documentation
 
