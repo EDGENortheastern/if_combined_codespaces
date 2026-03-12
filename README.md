@@ -1,4 +1,5 @@
-# if_combined_codespaces
-A demo how to do the assessments without Python
+# Python Quiz
 
-Live terminal trial is [here](https://jubilant-sniffle-69xp7wg97p434xvx.github.dev)
+A demo on how to do the assessments without local Python.
+
+
